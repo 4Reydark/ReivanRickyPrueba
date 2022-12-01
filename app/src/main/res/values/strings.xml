@@ -22,5 +22,11 @@
 
     <string name="button_text_next">Siguiente</string>
     <string name="button_text_viewResult">Mostrar Resultados</string>
+<!-- Activity dos-->
+    <string name="textViewNumero_text">Nùmero:</string>
+
+    <string name="edittextNumero_hint">Numero</string>
+
+    <string name="button_text_close">Cerrar</string>
 
 </resources>
