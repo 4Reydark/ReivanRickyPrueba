@@ -3,12 +3,13 @@
 
     <!--    MainActity-->
     <string name="textViewNames_text_title">Nombres:</string>
-    <string name="textViewLastName_text_title">Nombres:</string>
-    <string name="textViewNames_text_title">Nombres:</string>
-    <string name="textViewNames_text_title">Nombres:</string>
-    <string name="textViewNames_text_title">Nombres:</string>
-    <string name="textViewNames_text_title">Nombres:</string>
-    <string name="textViewNames_text_title">Nombres:</string>
-    <string name="button_text_ok">Aceptar</string>
+    <string name="textViewLastName_text_title">Apellidos:</string>
+    <string name="textViewDividendo_text_title">Dividendo:</string>
+    <string name="textViewDivisor_text_title">Divisor:</string>
+    <string name="textViewPart_text_title">Parte Entera:</string>
+    <string name="textViewResiduo_text_title">Residuo:</string>
+    <string name="textViewInvertido_text_title">Num. Invertido:</string>
+    <string name="button_text_next">Siguiente</string>
+    <string name="button_text_viewResult">Mostrar Resultados</string>
 
 </resources>
