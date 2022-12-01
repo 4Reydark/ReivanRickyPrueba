@@ -1,109 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Tres">
+
     <TextView
         android:id="@+id/textViewNames"
         android:layout_width="106dp"
         android:layout_height="28dp"
-        android:text="@string/textViewNames_text_title"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="77dp" />
+        android:text="@string/textViewNames_text_title" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/edittextNames_hint"
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textViewLastNames"
         android:layout_width="107dp"
         android:layout_height="29dp"
-        android:text="@string/textViewLastName_text_title"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="112dp" />
+        android:text="@string/textViewLastName_text_title" />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/edittextLastName_hint"
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textViewDividendo"
         android:layout_width="110dp"
         android:layout_height="25dp"
-        android:text="@string/textViewDividendo_text_title"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="189dp" />
+        android:text="@string/textViewDividendo_text_title" />
+
+    <EditText
+        android:id="@+id/editTextDividendo"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/edittextDividendo_hint"
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textViewDivisor"
         android:layout_width="111dp"
         android:layout_height="29dp"
-        android:text="@string/textViewDivisor_text_title"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="221dp" />
-
-    <EditText
-        android:id="@+id/editTextName"
-        android:layout_width="217dp"
-        android:layout_height="46dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/edittextNames_hint"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="60dp" />
-
-    <EditText
-        android:id="@+id/editTextLastName"
-        android:layout_width="215dp"
-        android:layout_height="48dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/edittextLastName_hint"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="105dp" />
-
-    <EditText
-        android:id="@+id/editTextDividendo"
-        android:layout_width="212dp"
-        android:layout_height="41dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/edittextDividendo_hint"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="180dp" />
+        android:text="@string/textViewDivisor_text_title" />
 
     <EditText
         android:id="@+id/editTextDivisor"
-        android:layout_width="212dp"
+        android:layout_width="match_parent"
         android:layout_height="41dp"
         android:ems="10"
         android:hint="@string/edittextDivisor_hint"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="221dp" />
-
-    <Button
-        android:id="@+id/buttonclose"
-        android:layout_width="403dp"
-        android:layout_height="51dp"
-        android:text="@string/button_text_close"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="594dp" />
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textViewNumero"
         android:layout_width="102dp"
         android:layout_height="37dp"
-        android:text="@string/textViewNumero_text"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="346dp" />
+        android:text="@string/textViewNumero_text" />
 
     <EditText
         android:id="@+id/editTextNumero"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/edittextNumero_hint"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="338dp" />
+        android:inputType="textPersonName" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/buttonclose"
+        android:layout_width="403dp"
+        android:layout_height="51dp"
+        android:text="@string/button_text_close" />
+
+</LinearLayout>

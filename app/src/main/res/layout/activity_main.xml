@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,151 +7,128 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editTextInvertido"
-        android:layout_width="212dp"
-        android:layout_height="46dp"
-        android:ems="10"
-        android:hint="@string/edittextInvertido_hint"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="404dp" />
-
     <TextView
         android:id="@+id/textViewNames"
-        android:layout_width="106dp"
+        android:layout_width="wrap_content"
         android:layout_height="28dp"
-        android:text="@string/textViewNames_text_title"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="77dp" />
+        android:text="@string/textViewNames_text_title" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/edittextNames_hint"
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textViewLastNames"
         android:layout_width="107dp"
         android:layout_height="29dp"
-        android:text="@string/textViewLastName_text_title"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="112dp" />
+        android:text="@string/textViewLastName_text_title" />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/edittextLastName_hint"
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textViewDividendo"
         android:layout_width="110dp"
         android:layout_height="25dp"
-        android:text="@string/textViewDividendo_text_title"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="189dp" />
+        android:text="@string/textViewDividendo_text_title" />
+
+    <EditText
+        android:id="@+id/editTextDividendo"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/edittextDividendo_hint"
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textViewDivisor"
         android:layout_width="111dp"
         android:layout_height="29dp"
-        android:text="@string/textViewDivisor_text_title"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="221dp" />
+        android:text="@string/textViewDivisor_text_title" />
+
+    <EditText
+        android:id="@+id/editTextDivisor"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/edittextDivisor_hint"
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textViewPart"
         android:layout_width="104dp"
         android:layout_height="29dp"
-        android:text="@string/textViewPart_text_title"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="292dp" />
+        android:text="@string/textViewPart_text_title" />
+
+    <EditText
+        android:id="@+id/editTextParte"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/edittextPart_hint"
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textViewResiduo"
         android:layout_width="104dp"
         android:layout_height="27dp"
-        android:text="@string/textViewResiduo_text_title"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="325dp" />
+        android:text="@string/textViewResiduo_text_title" />
+
+    <EditText
+        android:id="@+id/editTextResiduo"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/edittextResiduo_hint"
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textViewInvertido"
         android:layout_width="104dp"
         android:layout_height="33dp"
-        android:text="@string/textViewInvertido_text_title"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="416dp" />
+        android:text="@string/textViewInvertido_text_title" />
+
+    <EditText
+        android:id="@+id/editTextInvertido"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/edittextInvertido_hint"
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/buttonNext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_text_next"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="535dp" />
+        android:text="@string/button_text_next" />
 
     <Button
         android:id="@+id/buttonMostrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_text_viewResult"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="640dp" />
+        android:enabled="false"
+        />
 
-    <EditText
-        android:id="@+id/editTextName"
-        android:layout_width="217dp"
-        android:layout_height="46dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/edittextNames_hint"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="60dp" />
-
-    <EditText
-        android:id="@+id/editTextLastName"
-        android:layout_width="215dp"
-        android:layout_height="48dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/edittextLastName_hint"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="105dp" />
-
-    <EditText
-        android:id="@+id/editTextDividendo"
-        android:layout_width="212dp"
-        android:layout_height="41dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/edittextDividendo_hint"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="180dp" />
-
-    <EditText
-        android:id="@+id/editTextDivisor"
-        android:layout_width="212dp"
-        android:layout_height="41dp"
-        android:ems="10"
-        android:hint="@string/edittextDivisor_hint"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="221dp" />
-
-    <EditText
-        android:id="@+id/editTextParte"
-        android:layout_width="212dp"
-        android:layout_height="41dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/edittextPart_hint"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="284dp" />
-
-    <EditText
-        android:id="@+id/editTextResiduo"
-        android:layout_width="212dp"
-        android:layout_height="41dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/edittextResiduo_hint"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="325dp" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
