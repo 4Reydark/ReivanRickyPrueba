@@ -9,6 +9,17 @@
     <string name="textViewPart_text_title">Parte Entera:</string>
     <string name="textViewResiduo_text_title">Residuo:</string>
     <string name="textViewInvertido_text_title">Num. Invertido:</string>
+
+    <string name="edittextNames_hint">Nombres</string>
+    <string name="edittextLastName_hint">Apellidos</string>
+    <string name="edittextDividendo_hint">Dividendo</string>
+    <string name="edittextDivisor_hint">Divisor</string>
+    <string name="edittextPart_hint">Parte Entera</string>
+    <string name="edittextResiduo_hint">Residuo</string>
+    <string name="edittextInvertido_hint">Num. Invertido</string>
+
+
+
     <string name="button_text_next">Siguiente</string>
     <string name="button_text_viewResult">Mostrar Resultados</string>
 
