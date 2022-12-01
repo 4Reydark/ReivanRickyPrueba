@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">ReivanRickyPrueba</string>
+
+    <!--    MainActity-->
+    <string name="textViewNames_text_title">Nombres:</string>
+    <string name="textViewLastName_text_title">Nombres:</string>
+    <string name="textViewNames_text_title">Nombres:</string>
+    <string name="textViewNames_text_title">Nombres:</string>
+    <string name="textViewNames_text_title">Nombres:</string>
+    <string name="textViewNames_text_title">Nombres:</string>
+    <string name="textViewNames_text_title">Nombres:</string>
+    <string name="button_text_ok">Aceptar</string>
+
 </resources>
