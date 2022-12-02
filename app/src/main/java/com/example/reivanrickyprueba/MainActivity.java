@@ -18,21 +18,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        buttonNext = findViewById(R.id.buttonNext);
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent( MainActivity.this, Dos.class);
+
+                startActivity(intent);
+            }
+        });
 
 
 
-        private void OnClick_SiguienteActivity2(View view){
-
-            Intent intent = new Intent(this, Dos.class);
-            startActivity(intent);
-
-        }
-
-        private void OnClick_MostrarResultados(View view){
-
-
-
-        }
     }
 
 

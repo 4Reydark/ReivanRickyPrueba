@@ -4,8 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class Tres extends AppCompatActivity {
+
+
+    private Button buttonClose;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

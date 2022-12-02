@@ -68,7 +68,8 @@
         android:ems="10"
         android:focusable="false"
         android:hint="@string/edittextDivisor_hint"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textViewPart"
@@ -115,7 +116,9 @@
         android:ems="10"
         android:focusable="false"
         android:hint="@string/edittextInvertido_hint"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:textColorHint="#757575"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/buttonNext"
