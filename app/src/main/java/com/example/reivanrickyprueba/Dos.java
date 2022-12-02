@@ -53,7 +53,15 @@ public class Dos extends AppCompatActivity {
 
 
         if (code == requestCode && resultCode == RESULT_OK){
+            Bundle extras = getIntent().getExtras();
 
+            String Dividendo = extras.getString("Divdd");
+            String Divisor = extras.getString("Divs");
+
+            editTextDividendo=findViewById(R.id.editTextDividendo);
+            editTextDivisor=findViewById(R.id.editTextDivisor);
+            editTextDividendo.setText(Dividendo);
+            editTextDivisor.setText(Divisor);
         }
 
 
