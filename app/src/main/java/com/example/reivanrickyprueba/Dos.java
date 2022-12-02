@@ -1,5 +1,6 @@
 package com.example.reivanrickyprueba;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -13,11 +14,12 @@ import android.widget.EditText;
 public class Dos extends AppCompatActivity {
 
     private Button buttonNext;
-    private Button buttonClose;
+
 
     private EditText editTextNames;
     private EditText editTextLastName;
-
+    private EditText editTextDividendo;
+    private EditText editTextDivisor;
     private int code = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +43,18 @@ public class Dos extends AppCompatActivity {
             }
         });
 
+
+
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+
+
+        if (code == requestCode && resultCode == RESULT_OK){
+
+        }
 
 
     }
