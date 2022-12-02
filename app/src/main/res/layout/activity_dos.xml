@@ -94,7 +94,7 @@
         android:text="@string/button_text_next" />
 
     <Button
-        android:id="@+id/buttonclose"
+        android:id="@+id/buttonclose2"
         android:layout_width="403dp"
         android:layout_height="51dp"
         android:text="@string/button_text_close"

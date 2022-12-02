@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+
+
 public class Dos extends AppCompatActivity {
 
     private Button buttonNext;
@@ -16,6 +18,7 @@ public class Dos extends AppCompatActivity {
     private EditText editTextNames;
     private EditText editTextLastName;
 
+    private int code = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,17 +34,13 @@ public class Dos extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent( Dos.this, Tres.class);
-
+                intent.putExtra("Nombre",Name);
+                intent.putExtra("Apellido",LastName);
                 startActivity(intent);
             }
         });
 
-        buttonClose.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-            }
-        });
 
     }
 
