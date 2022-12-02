@@ -18,13 +18,14 @@ public class Tres extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tres);
+
         Bundle extras = getIntent().getExtras();
 
         String Names = extras.getString("Nombre");
         String LastName = extras.getString("Apellido");
 
-        editTextNames=findViewById(R.id.editTextName);
-        editTextLastName=findViewById(R.id.editTextLastName);
+        editTextNames=findViewById(R.id.editTextName1);
+        editTextLastName=findViewById(R.id.editTextLastName1);
         editTextNames.setText(Names);
         editTextLastName.setText(LastName);
     }

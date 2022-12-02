@@ -26,13 +26,14 @@ public class Dos extends AppCompatActivity {
         editTextNames = findViewById(R.id.editTextName);
         editTextLastName = findViewById(R.id.editTextLastName);
 
-        String Name = editTextNames.getText().toString();
-        String LastName =editTextLastName.getText().toString();
+
 
         buttonNext = findViewById(R.id.buttonNext);
         buttonNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String Name = editTextNames.getText().toString();
+                String LastName =editTextLastName.getText().toString();
                 Intent intent = new Intent( Dos.this, Tres.class);
                 intent.putExtra("Nombre",Name);
                 intent.putExtra("Apellido",LastName);

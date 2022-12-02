@@ -14,13 +14,10 @@
         android:text="@string/textViewNames_text_title" />
 
     <EditText
-        android:id="@+id/editTextName"
+        android:id="@+id/editTextName0"
         android:layout_width="match_parent"
-        android:layout_height="46dp"
-        android:autofillHints=""
+        android:layout_height="wrap_content"
         android:ems="10"
-        android:focusable="false"
-        android:hint="@string/edittextNames_hint"
         android:inputType="textPersonName" />
 
     <TextView
@@ -30,13 +27,10 @@
         android:text="@string/textViewLastName_text_title" />
 
     <EditText
-        android:id="@+id/editTextLastName"
+        android:id="@+id/editTextLastName0"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:autofillHints=""
+        android:layout_height="wrap_content"
         android:ems="10"
-        android:focusable="false"
-        android:hint="@string/edittextLastName_hint"
         android:inputType="textPersonName" />
 
     <TextView

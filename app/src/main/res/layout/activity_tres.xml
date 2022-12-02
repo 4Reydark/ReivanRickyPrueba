@@ -14,13 +14,10 @@
         android:text="@string/textViewNames_text_title" />
 
     <EditText
-        android:id="@+id/editTextName"
+        android:id="@+id/editTextName1"
         android:layout_width="match_parent"
-        android:layout_height="46dp"
-        android:autofillHints=""
+        android:layout_height="wrap_content"
         android:ems="10"
-        android:focusable="false"
-        android:hint="@string/edittextNames_hint"
         android:inputType="textPersonName" />
 
     <TextView
@@ -30,13 +27,10 @@
         android:text="@string/textViewLastName_text_title" />
 
     <EditText
-        android:id="@+id/editTextLastName"
+        android:id="@+id/editTextLastName1"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:autofillHints=""
+        android:layout_height="wrap_content"
         android:ems="10"
-        android:focusable="false"
-        android:hint="@string/edittextLastName_hint"
         android:inputType="textPersonName" />
 
     <TextView
@@ -46,12 +40,10 @@
         android:text="@string/textViewDividendo_text_title" />
 
     <EditText
-        android:id="@+id/editTextDividendo"
+        android:id="@+id/editTextDivdd1"
         android:layout_width="match_parent"
-        android:layout_height="41dp"
-        android:autofillHints=""
+        android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/edittextDividendo_hint"
         android:inputType="textPersonName" />
 
     <TextView
@@ -61,13 +53,11 @@
         android:text="@string/textViewDivisor_text_title" />
 
     <EditText
-        android:id="@+id/editTextDivisor"
+        android:id="@+id/editTextDivs"
         android:layout_width="match_parent"
-        android:layout_height="41dp"
+        android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/edittextDivisor_hint"
-        android:inputType="textPersonName"
-        android:autofillHints="" />
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textViewNumero"
@@ -76,14 +66,11 @@
         android:text="@string/textViewNumero_text" />
 
     <EditText
-        android:id="@+id/editTextNumero"
+        android:id="@+id/editTextNum"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/edittextNumero_hint"
-        android:inputType="textPersonName"
-        android:textColorHint="#757575"
-        android:autofillHints="" />
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/buttonclose2"
