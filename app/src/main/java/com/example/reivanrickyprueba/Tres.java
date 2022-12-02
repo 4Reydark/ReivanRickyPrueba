@@ -24,11 +24,13 @@ public class Tres extends AppCompatActivity {
         String LastName = extras.getString("Apellido");
 
         editTextNames=findViewById(R.id.editTextName);
-        editTextNames.setText(Names);
         editTextLastName=findViewById(R.id.editTextLastName);
+        editTextNames.setText(Names);
         editTextLastName.setText(LastName);
     }
-
+    public void onClick_buttonFinish (View view) {
+        finish();
+    }
 
 
 

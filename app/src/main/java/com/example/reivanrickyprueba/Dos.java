@@ -44,6 +44,8 @@ public class Dos extends AppCompatActivity {
 
     }
 
-
+    public void onClick_buttonFinish (View view) {
+        finish();
+    }
 
 }

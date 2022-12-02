@@ -97,7 +97,8 @@
         android:id="@+id/buttonclose2"
         android:layout_width="403dp"
         android:layout_height="51dp"
-        android:text="@string/button_text_close"
-        android:enabled="false"/>
+        android:enabled="false"
+        android:onClick="onClick_buttonFinish"
+        android:text="@string/button_text_close" />
 
 </LinearLayout>
